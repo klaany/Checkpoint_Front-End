@@ -1,1 +1,116 @@
-*
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ 
+.header {
+    background-color: red;
+    margin-bottom: 24px;
+    background-color: red;
+}
+.container {
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    /* margin: 0 auto; */
+}
+ 
+ 
+ 
+/*display = block, inline, inline-block*/
+ 
+.box{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+ 
+.menu{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+/*first & last-child : manipulam o primeiro e ultimo elementos*/
+.menu-item:first-child{
+    padding-left: 0px;
+}
+ 
+.menu-item:last-child{
+    padding-right: 0px;
+}
+ 
+.menu-item{
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+ 
+.box-link{
+    display: block;
+}
+ 
+.menu-item {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: none;
+}
+ 
+.globo-com{color: blue;}
+ 
+.g1{color: red;}
+ 
+.ge{color: green;}
+ 
+.gshow{color: orange;}
+ 
+.globoplay{color:palevioletred;}
+ 
+.g1-jogos{color: darkred;}
+ 
+.o-globo{color: darkblue;}
+ 
+.valor{color: darkgreen;}
+ 
+.first-news{
+    border-width: 1px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 8px;
+    padding: 24px;
+    background-color: lightgray;
+}
+ 
+.second-news{
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 24px;
+    background-color: rgb(250, 7, 7);
+    color: white;
+}
+ 
+/*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+a {
+    color: aqua;
+    text-decoration: none;
+}
+ 
+a:visited {
+    color: aquamarine;
+}
+ 
+a:hover{
+    text-decoration: underline;
+}
+ 
+li {
+    color: aqua;
+}
+ 
