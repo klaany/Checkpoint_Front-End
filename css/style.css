@@ -1,116 +1,105 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
- 
+
 .header {
-    background-color: red;
-    margin-bottom: 24px;
-    background-color: red;
+  background-color: #C4170C;
+  margin-bottom: 24px;
 }
+
 .container {
-    width: 86%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
-    /* margin: 0 auto; */
+  width: 86%;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin: 0 auto; */
 }
- 
- 
- 
-/*display = block, inline, inline-block*/
- 
-.box{
-    width: 300px;
-    display: inline-block;
-    vertical-align: top;
+
+/* display: block / inline / inline-block */
+.box {
+  width: 48%;
+  display: inline-block;
+  vertical-align: top;
 }
- 
-.menu{
-    padding-top: 12px;
-    padding-bottom: 12px;
+
+.box-link {
+  display: block;
 }
-/*first & last-child : manipulam o primeiro e ultimo elementos*/
-.menu-item:first-child{
-    padding-left: 0px;
+
+.menu {
+  /* padding-top: 12px;
+  padding-bottom: 12px; */
+  padding: 12px 0;
 }
- 
-.menu-item:last-child{
-    padding-right: 0px;
-}
- 
-.menu-item{
-    display: inline-block;
-    padding-right: 5px;
-    padding-left: 5px;
-}
- 
-.box-link{
-    display: block;
-}
- 
+
 .menu-item {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: 800;
-    text-decoration: none;
+  display: inline-block;
+  /* padding-left: 6px;
+  padding-right: 6px; */
+  padding: 0 6px;
 }
- 
-.globo-com{color: blue;}
- 
-.g1{color: red;}
- 
-.ge{color: green;}
- 
-.gshow{color: orange;}
- 
-.globoplay{color:palevioletred;}
- 
-.g1-jogos{color: darkred;}
- 
-.o-globo{color: darkblue;}
- 
-.valor{color: darkgreen;}
- 
-.first-news{
-    border-width: 1px;
-    border-style: solid;
-    border-color: brown;
-    border-radius: 8px;
-    padding: 24px;
-    background-color: lightgray;
+
+/* 
+:first-child 
+:last-child
+ Manipular o primeiro e o último elemento de um grupo
+ */
+.menu-item:first-child {
+  padding-left: 0;
 }
- 
-.second-news{
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 8px;
-    padding: 24px;
-    background-color: rgb(250, 7, 7);
-    color: white;
+
+.menu-item:last-child {
+  padding-right: 0;
 }
- 
-/*{
-    box-sizing: border-box;
+
+.menu-link {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
 }
-body{
-    background-color: black;
+
+.globo-com {
+  color: #0669DE;
 }
-a {
-    color: aqua;
-    text-decoration: none;
+
+.g1-com {
+  color: #C4170C;
 }
- 
-a:visited {
-    color: aquamarine;
+
+.ge {
+  color: #06AA48;
 }
- 
-a:hover{
-    text-decoration: underline;
+
+.globoplay {
+  color: #FB0334;
 }
- 
-li {
-    color: aqua;
+
+.jogos {
+  color: #A5147D;
+}
+
+.o-globo {
+  color: #1E4C9A;
+}
+
+.first-news {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #C4170C;
+  border-radius: 8px;
+  padding: 24px;
+  background-color: lightgray;
+}
+
+.second-news {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
+  padding: 24px;
+  background-color: #C4170C;
+  color: #FFFFFF;
+  margin-bottom: 12px;
 }
  
